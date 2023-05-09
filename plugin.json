@@ -1,7 +1,7 @@
 {
   "name": "testing",
   "label": "testing",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "icon": "/path/to/icon.png",
   "layout": {
     "navItems": [
