@@ -1,0 +1,30 @@
+{
+  "name": "testing",
+  "label": "testing",
+  "version": "1.0.0",
+  "icon": "/path/to/icon.png",
+  "layout": {
+    "navItems": [
+      {
+        "label": "testing",
+        "path": "/plugins/testing"
+      }
+    ]
+  },
+  "settings": {
+    "schema": {
+      "type": "object",
+      "properties": {
+        "mySetting": {
+          "type": "string",
+          "default": "default value"
+        }
+      }
+    }
+  },
+  "permissions": {
+    "roles": ["admin"],
+    "permissions": ["my-plugin:access"],
+    "defaultRoles": ["admin"]
+  }
+}
